@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <FrameLayout
+        android:id="@+id/color_item"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationX="48dp"
+            android:translationY="15dp" />
+
+        <TextView
+            android:id="@+id/color_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:translationX="130dp"
+            android:translationY="19dp"
+            tools:text="fake color" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hex:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationX="48dp"
+            android:translationY="55dp" />
+
+        <TextView
+            android:id="@+id/color_hex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:translationX="130dp"
+            android:translationY="59dp"
+            tools:text="#12345" />
+
+        <TextView
+            android:id="@+id/created_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:translationX="175dp"
+            android:translationY="110dp" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
